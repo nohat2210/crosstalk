@@ -185,7 +185,7 @@ function App() {
         endpointing: true,
         multichannel: false,
         alternatives: 1,
-        interim_results: true,
+        interim_results: false,
       });
 
       live.on(LiveTranscriptionEvents.Open, () => {
